@@ -9,7 +9,7 @@ async function filterAsync<T = any>(
   callbackfn: (value: T, index: number, array: T[]) => unknown,
   thisArg?: any
 ) {
-  let filterResult = await Promise.all(array.map(callbackfn));
+  let filterResult = await Promise.all(array.map(callbackfn, thisArg));
 
   return array.filter((_, index) => filterResult[index], thisArg);
 }
