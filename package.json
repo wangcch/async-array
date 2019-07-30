@@ -1,0 +1,26 @@
+{
+  "name": "ts-npm-workflow",
+  "version": "0.1.0",
+  "description": "npm workflow for function package",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./lib/* && tsc -d --project tsconfig.json --outDir ./lib/",
+    "test": "rm -rf ./dist/* && tsc -d --project tsconfig.test.json --outDir ./dist/ && ava"
+  },
+  "keywords": [
+    "workflow",
+    "npm",
+    "typescript",
+    "function",
+    "template"
+  ],
+  "author": "wangcch <wangcch.cc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^2.2.0",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
