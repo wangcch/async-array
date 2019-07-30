@@ -1,3 +1,2 @@
-declare const demo = "demo";
-export declare const asyncFunc: () => Promise<string>;
-export default demo;
+import filterAsync from "./filter";
+export { filterAsync };

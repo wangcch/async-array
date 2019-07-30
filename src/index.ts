@@ -1,7 +1,3 @@
-const demo = "demo";
+import filterAsync from "./filter";
 
-export const asyncFunc = async () => {
-  return "async";
-};
-
-export default demo;
+export { filterAsync };
