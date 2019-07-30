@@ -1,7 +1,7 @@
 {
-  "name": "ts-npm-workflow",
+  "name": "async-array",
   "version": "0.1.0",
-  "description": "npm workflow for function package",
+  "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -9,11 +9,10 @@
     "test": "rm -rf ./dist/* && tsc -d --project tsconfig.test.json --outDir ./dist/ && ava"
   },
   "keywords": [
-    "workflow",
-    "npm",
-    "typescript",
-    "function",
-    "template"
+    "array",
+    "async",
+    "loop",
+    "filter"
   ],
   "author": "wangcch <wangcch.cc@gmail.com>",
   "license": "MIT",
