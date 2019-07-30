@@ -1,3 +1,6 @@
 import mapAsync from "./map";
 import filterAsync from "./filter";
-export { filterAsync, mapAsync };
+import forEachAsync from "./forEach";
+import someAsync from "./some";
+import everyAsync from "./every";
+export { filterAsync, mapAsync, forEachAsync, someAsync, everyAsync };
