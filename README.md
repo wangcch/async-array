@@ -2,6 +2,10 @@
 
 array asynchronous loop
 
+[![Build Status](https://travis-ci.org/wangcch/async-array.svg?branch=master)](https://travis-ci.org/wangcch/async-array)
+[![](https://img.shields.io/npm/v/@wangcch/async-array.svg)](https://www.npmjs.com/package/@wangcch/async-array)
+[![](https://img.shields.io/npm/l/@wangcch/async-array.svg)](./LICENSE)
+
 ## usage
 
 ```
@@ -16,6 +20,16 @@ yarn test
 ```
 
 ### example
+
+```jsx
+import {
+  filterAsync,
+  mapAsync,
+  forEachAsync,
+  someAsync,
+  everyAsync,
+} from "@wangcch/async-array";
+```
 
 ```ts
 // filterAsync
