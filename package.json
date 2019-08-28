@@ -1,5 +1,5 @@
 {
-  "name": "async-array",
+  "name": "@wangcch/async-array",
   "version": "0.1.0",
   "description": "array asynchronous loop",
   "main": "lib/index.js",
@@ -8,6 +8,10 @@
     "build": "rm -rf ./lib/* && tsc -d --project tsconfig.json --outDir ./lib/",
     "test": "rm -rf ./dist/* && tsc -d --project tsconfig.test.json --outDir ./dist/ && ava",
     "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangcch/async-array.git"
   },
   "keywords": [
     "array",
