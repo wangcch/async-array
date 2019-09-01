@@ -8,6 +8,10 @@ array asynchronous loop
 
 ## usage
 
+```shell
+yarn add @wangcch/async-array
+```
+
 ```
 # install dependencies
 yarn
