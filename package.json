@@ -28,7 +28,7 @@
     "@ava/babel": "^1.0.1",
     "@ava/typescript": "^1.1.1",
     "ava": "^3.8.1",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.5.3"
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
   }
 }
