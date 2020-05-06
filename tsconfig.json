@@ -4,7 +4,9 @@
     "target": "es5",
     "module": "commonjs",
     "strict": true,
-    "lib": ["dom", "esnext"]
+    "lib": ["dom", "esnext"],
+    "outDir": "./lib",
+    "declaration": true
   },
   "include": ["src/**/*"]
 }

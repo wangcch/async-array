@@ -5,8 +5,10 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "rm -rf ./lib/* && tsc -d --project tsconfig.json --outDir ./lib/",
-    "test": "rm -rf ./dist/* && tsc -d --project tsconfig.test.json --outDir ./dist/ && ava",
+    "build": "rm -rf ./lib/* && yarn build:cjs",
+    "build:cjs": "tsc",
+    "build:test": "rm -rf ./dist/* && tsc --project tsconfig.test.json",
+    "test": "yarn build:test && ava",
     "prepare": "yarn build"
   },
   "repository": {
