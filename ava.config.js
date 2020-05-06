@@ -1,6 +1,12 @@
 export default {
-  compileEnhancements: false,
-  extensions: ["ts"],
+  babel: {
+    compileEnhancements: false,
+  },
   require: ["ts-node/register"],
-  sources: ["dist/**/*"],
+  typescript: {
+    extensions: ["ts"],
+    rewritePaths: {
+      "src/": "dist/",
+    },
+  },
 };
